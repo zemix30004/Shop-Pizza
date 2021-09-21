@@ -13,7 +13,7 @@
 
     <!-- Bootstrap core CSS -->
 <link href="/css/bootstrap.min.css" rel="stylesheet">
-<link href="/css/app.css" rel="stylesheet">
+<link href="{{ URL::to('/css/app.css') }}" rel="stylesheet">
  @yield('styles')
   </head>
   <body>
